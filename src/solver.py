@@ -1,10 +1,6 @@
 # !/usr/bin/env python3
 # coding=utf-8
-"""
-Learn to use PyCharm
-
-Pycharm Tutorial learn  ing
-"""
+"""Learn to use PyCharm"""
 
 import math
 

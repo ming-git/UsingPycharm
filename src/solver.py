@@ -21,23 +21,13 @@ class Solver(object):
 
     @staticmethod
     def demo(a, b, c) -> tuple:
-        """
-        二元一次方程求解
+        """二元一次方程求解"""
 
-        :param a:
-        :param b:
-        :param c:
-
-        :type a: float
-        :type b: float
-        :type c: float
-        :return: tuple
-        """
         d = b ** 2 - 4 * a * c
         if d >= 0:
-            discr = math.sqrt(d)
-            root1 = (-b + discr) / (2 * a)
-            root2 = (-b - discr) / (2 * a)
+            discriminant = math.sqrt(d)
+            root1 = (-b + discriminant) / (2 * a)
+            root2 = (-b - discriminant) / (2 * a)
 
             print(root1, root2)
 
